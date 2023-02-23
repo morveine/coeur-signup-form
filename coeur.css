@@ -113,7 +113,7 @@ p>span.name {
 }
 
 span.sign-up {
-    font-size: 1.4wv;
+    font-size: 1.2vw;
     font-weight: bold;
 }
 
@@ -125,6 +125,7 @@ form {
 
 form div>p {
     padding-left: 20px;
+    font-size: 0.7vw;
 }
 
 input,
@@ -231,19 +232,23 @@ button:hover {
         gap: 5px;
         font-size: 1vw;
     }
-
-    form>div {
-        margin-bottom: 10px;
+    .form-section {
+        padding: 30px 50px;
     }
-
     .form-section>p {
         margin-bottom: 10px;
     }
 
+    input {
+        font-size: 15px;
+    }
     .login-text {
         display: none;
     }
 
+    span.sign-up {
+        font-size: 15px;
+    }
     .span-hidden {
         display: contents;
     }
